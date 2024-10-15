@@ -36,7 +36,7 @@ public abstract class AbstractProcessOutput
   /** the process. */
   protected transient Process m_Process;
 
-  /** the timeout for the process in seconds (ignored if < 1). */
+  /** the timeout for the process in seconds (ignored if &lt; 1). */
   protected int m_TimeOut;
 
   /** whether the process has timed out. */

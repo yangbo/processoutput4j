@@ -51,7 +51,6 @@ public final class CollectingProcessOutput
   /**
    * Configures the reader for stdout.
    *
-   * @param process 	the process to monitor
    * @return		the configured reader
    */
   @Override

@@ -18,3 +18,5 @@ ChangeLog
 
   Make the jar to JDK9 module named 'com.github.fracpete.processoutput4j'.
   Change the source and target level to 1.9.
+
+  Upgrade maven-javadoc-plugin to 3.10.1 to support javadoc of module-info.java.
