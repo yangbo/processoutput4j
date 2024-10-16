@@ -141,11 +141,12 @@ public abstract class AbstractProcessOutput
     // writing the input to the standard input of the process
     if (input != null) {
       BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
-	m_Process.getOutputStream()));
+	    m_Process.getOutputStream()));
       writer.write(input);
       writer.close();
     }
 
+    // will hang up the caller till the process exit.
     m_ExitCode = m_Process.waitFor();
 
     // wait for threads to finish
@@ -237,7 +238,7 @@ public abstract class AbstractProcessOutput
     // writing the input to the standard input of the process
     if (input != null) {
       BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
-	m_Process.getOutputStream()));
+	    m_Process.getOutputStream()));
       writer.write(input);
       writer.close();
     }
