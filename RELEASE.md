@@ -21,3 +21,5 @@ ChangeLog
   * Change the source and target level to 1.9.
 
   * Upgrade maven-javadoc-plugin to 3.10.1 to support javadoc of module-info.java.
+  
+  * Upgrade maven-compiler-plugin to 3.13.0 to support java9 module.
